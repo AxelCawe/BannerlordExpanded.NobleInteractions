@@ -21,5 +21,43 @@
 		
 		<string id="BENobleInteractions_DeclareWarTogether_Tooltip" text="Declare war against {OTHER_FACTION} with {TOGETHER_FACTION}" />
 		
+		<!-- Tournament Invites -->
+		<string id="BENobleInteractions_TournamentInvites_Title" text="- Tournament of {TOWN_NAME} -\n{PLAYER_NAME}'s Attendance Request" />
+		
+		<string id="BENobleInteractions_TournamentInvites_Desc1" text="A rider approaches your party and hands a letter written by {LORD_NAME} of Clan {LORD_CLAN_NAME} to one of your loyal soldiers.\n \n" />
+		<string id="BENobleInteractions_TournamentInvites_Desc2" text="The letter states that you've been invited to attend a Tournament in {TOWN_NAME} and that you've been personally invited by it's Lord, {LORD_NAME} of Clan {LORD_CLAN_NAME}.\n \n" />
+		<string id="BENobleInteractions_TournamentInvites_Desc3" text="It is said that the Tournament Prize will be a {TOURNAMENT_PRIZE} worth approximately {PRIZE_VALUE} denars.\n \n" />
+		<string id="BENobleInteractions_TournamentInvites_Desc4" text="The rider stares at you patiently awaiting your response..." />
+		
+		<string id="BENobleInteractions_TournamentInvites_ButtonText" text="Confirm" />
+			
+		<string id="BENobleInteractions_TournamentInvites_AcceptInvitation" text="Accept {LORD_NAME}'s Invitation" />
+		<string id="BENobleInteractions_TournamentInvites_AcceptInvitation_Thought" text="This would surely help boost my relations with {LORD_NAME} if I were to win." />
+		<string id="BENobleInteractions_TournamentInvites_DeclineInvitation" text="Decline {LORD_NAME}'s Invitation" />
+		<string id="BENobleInteractions_TournamentInvites_DeclineInvitation_Thought" text="I don't think {LORD_NAME} will be too pleased if I were to decline his offer." />
+		
+		<string id="BENobleInteractions_TournamentInvites_InvitationDeclined_Title" text="Invitation Declined" />
+		<string id="BENobleInteractions_TournamentInvites_InvitationDeclined_Desc" text="I have decided to decline {LORD_NAME}'s invitation to attend the Tournament at {TOWN_NAME}.\n \nI doubt they will be pleased about this decision." />
+		<string id="BENobleInteractions_TournamentInvites_InvitationDeclined_ButtonText" text="Oh well." />
+		
+		<string id="BENobleInteractions_QuestTitle" text="Tournament Attendance Expected at {TOWN_NAME}" />
+		<string id="BENobleInteractions_QuestLog" text="You are invited to the tournament at {TOWN.LINK} by {QUEST_GIVER.LINK}! The prize is {PRIZE_NAME} worth {PRIZE_VALUE}{GOLD_ICON}." />
+		
+		<string id="BENobleInteractions_TournamentInvite_QuestGiverDied" text="{QUEST_GIVER.LINK} has died. The invite is canceled." />
+		<string id="BENobleInteractions_TournamentInvite_TournamentCanceled" text="The tournament has been canceled." />
+		<string id="BENobleInteractions_TournamentInvite_TournamentExpired" text="You have failed to participate in the tournament. {QUEST_GIVER.LINK} will certainly be disappointed." />
+		<string id="BENobleInteractions_TournamentInvite_WarAgainstFactions" text="You are now at war with {QUEST_GIVER.LINK}'s faction. Quest is canceled." />
+		<string id="BENobleInteractions_TournamentInvite_Attended" text="You have attended the tournament at {TOWN_NAME}. Relations with {QUEST_GIVER_FACTION} has increased." />
+		<string id="BENobleInteractions_TournamentInvite_Victory" text="You have attended and won the tournament at {TOWN_NAME}. Relations {QUEST_GIVER_FACTION} has increased." />
+		
+		<string id="BENobleInteractions_TournamentInvite_Welcome_Title" text="Tournament attendance at {TOWNNAME}" />
+		<string id="BENobleInteractions_TournamentInvite_Welcome_Desc" text="You have successfully carried out your promise to {INVITER.NAME} to attend this tournament! {INVITER.NAME} warmly welcomes you!" />
+		<string id="BENobleInteractions_TournamentInvite_Welcome_Button" text="Continue" />
+		
+		<string id="BENoble_TournamentInvite_Summary_Title" text="Tournament attendance at {TOWNNAME}" />
+		<string id="BENoble_TournamentInvite_Summary_ButtonText" text="Splendid News" />
+		<string id="BENoble_TournamentInvite_Summary_ChampionDesc" text="{TOWN_OWNER_LORD_NAME} was extremely impressed by your victory in the arena and thus your relation has increased by a further {REPUTATION_CHANGE} as a result." />
+		<string id="BENoble_TournamentInvite_Summary_NotChampionDesc" text="Even though you didn't leave the tournament as the Champion, {TOWN_OWNER_LORD_NAME} still enjoyed the courage you showed in battle, increasing your relations by {REPUTATION_CHANGE} as a result." />
+		
 	</strings>
 </base>

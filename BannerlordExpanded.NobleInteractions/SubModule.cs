@@ -1,5 +1,6 @@
 ﻿using BannerlordExpanded.NobleInteractions.DeclareWarTogether.Behaviors;
 using BannerlordExpanded.NobleInteractions.Inns.Settings;
+using BannerlordExpanded.NobleInteractions.TournamentInvite.Behaviors;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
@@ -39,6 +40,10 @@ namespace BannerlordExpanded.NobleInteractions
             if (MCMSettings.Instance.DeclareWarTogetherEnabled)
             {
                 gameStarter.AddBehavior(new DeclareWarTogetherDialogBehavior());
+            }
+            if (MCMSettings.Instance.TournamentInvitesEnabled)
+            {
+                gameStarter.AddBehavior(new TournamentInviteBehavior());
             }
         }
     }

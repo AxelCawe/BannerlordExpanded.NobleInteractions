@@ -11,7 +11,7 @@
     <ModuleId>$(MSBuildProjectName)</ModuleId>
     <ModuleName>Bannerlord Expanded - Noble Interactions</ModuleName>
     <ModuleUrl></ModuleUrl>
-    <GameFolder>$(BANNERLORD_GAME_DIR)</GameFolder>
+    <GameFolder>C:\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord</GameFolder>
     <GameBinariesFolder Condition="Exists('$(GameFolder)\bin\Win64_Shipping_Client\Bannerlord.exe')">Win64_Shipping_Client</GameBinariesFolder>
     <GameBinariesFolder Condition="Exists('$(GameFolder)\bin\Gaming.Desktop.x64_Shipping_Client\Bannerlord.exe')">Gaming.Desktop.x64_Shipping_Client</GameBinariesFolder>
     <GameVersion>1.2.9</GameVersion>
