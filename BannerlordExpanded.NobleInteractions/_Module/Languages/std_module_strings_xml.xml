@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="English" />
+	</tags>
+	<strings>
+		<!-- Declare War Together -->
+		<string id="BENobleInteractions_DeclareWarTogether_Start" text="I'm here to discuss a mutual war declaration against a kingdom!" />
+		
+		<string id="BENobleInteractions_DeclareWarTogether_Continue0" text="Which kingdom do you have in mind?" />
+		<string id="BENobleInteractions_DeclareWarTogether_Cancel" text="Nevermind, I changed my mind...." />		
+		<string id="BENobleInteractions_DeclareWarTogether_Continue1" text="Let's see..." />
+		<string id="BENobleInteractions_DeclareWarTogether_Waiting" text="..." />
+
+		<string id="BENobleInteractions_DeclareWarTogether_KingdomSelected" text="You want us to declare war together against {ENEMY_FACTION}?" />
+		<string id="BENobleInteractions_DeclareWarTogether_KingdomSelected_Cancel" text="You seem to have no one in mind..." />
+		<string id="BENobleInteractions_DeclareWarTogether_KingdomSelected_Continue" text="Very well! Let us discuss the terms!" />
+		
+		<string id="BENobleInteractions_DeclareWarTogether_Finalize_Success" text="That's good. Let us start the war preparations!" />
+		<string id="BENobleInteractions_DeclareWarTogether_Finalize_Failure" text="That won't do. Let's call this discussion off!" />
+		
+		<string id="BENobleInteractions_DeclareWarTogether_Tooltip" text="Declare war against {OTHER_FACTION} with {TOGETHER_FACTION}" />
+		
+	</strings>
+</base>
