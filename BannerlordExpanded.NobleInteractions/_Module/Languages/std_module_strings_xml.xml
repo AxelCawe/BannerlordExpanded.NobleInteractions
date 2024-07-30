@@ -59,5 +59,12 @@
 		<string id="BENoble_TournamentInvite_Summary_ChampionDesc" text="{TOWN_OWNER_LORD_NAME} was extremely impressed by your victory in the arena and thus your relation has increased by a further {REPUTATION_CHANGE} as a result." />
 		<string id="BENoble_TournamentInvite_Summary_NotChampionDesc" text="Even though you didn't leave the tournament as the Champion, {TOWN_OWNER_LORD_NAME} still enjoyed the courage you showed in battle, increasing your relations by {REPUTATION_CHANGE} as a result." />
 		
+		<!-- Battle Relations -->
+		<string id="BENobleInteractions_BattleRelations_DefeatedByPositivePlayer" text="{LORD_NAME} will remember your Valor in battle!" />
+		<string id="BENobleInteractions_BattleRelations_DefeatedByNegativePlayer" text="{LORD_NAME} will be frustrated with this defeat!" />
+		<string id="BENobleInteractions_BattleRelations_DefeatedByPositiveLord" text="{LORD_NAME} respects your strength in battle." />
+		<string id="BENobleInteractions_BattleRelations_DefeatedByNegativeLord" text="{LORD_NAME} taunts you as you fall to the ground." />
+		
+		
 	</strings>
 </base>

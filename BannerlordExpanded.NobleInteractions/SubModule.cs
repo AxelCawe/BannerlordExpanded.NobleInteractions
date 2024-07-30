@@ -1,6 +1,8 @@
 ﻿using BannerlordExpanded.NobleInteractions.DeclareWarTogether.Behaviors;
 using BannerlordExpanded.NobleInteractions.Inns.Settings;
 using BannerlordExpanded.NobleInteractions.TournamentInvite.Behaviors;
+using HarmonyLib;
+using System.Reflection;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
@@ -13,7 +15,11 @@ namespace BannerlordExpanded.NobleInteractions
         protected override void OnSubModuleLoad()
         {
             base.OnSubModuleLoad();
-
+            Harmony harmony = new Harmony("BannerlordExpanded.NobleInteractions");
+            if (MCMSettings.Instance.BattleRelationsEnabled)
+            {
+                harmony.PatchCategory(Assembly.GetExecutingAssembly(), "BattleRelations");
+            }
         }
 
         protected override void OnSubModuleUnloaded()
@@ -44,6 +50,10 @@ namespace BannerlordExpanded.NobleInteractions
             if (MCMSettings.Instance.TournamentInvitesEnabled)
             {
                 gameStarter.AddBehavior(new TournamentInviteBehavior());
+            }
+            if (MCMSettings.Instance.BattleRelationsEnabled)
+            {
+
             }
         }
     }

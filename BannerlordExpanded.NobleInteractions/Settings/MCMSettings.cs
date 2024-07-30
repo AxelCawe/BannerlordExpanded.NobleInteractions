@@ -42,5 +42,19 @@ namespace BannerlordExpanded.NobleInteractions.Inns.Settings
         #endregion
 
 
+        #region BATTLE_RELATIONS
+        [SettingPropertyGroup("{=BE_NobleInteractions_Settings_BattleRelations}Battle Relations", GroupOrder = 2)]
+        [SettingPropertyBool("{=BE_NobleInteractions_Settings_BattleRelations}Battle Relations", IsToggle = true, RequireRestart = true)]
+        public bool BattleRelationsEnabled { get; set; } = true;
+        [SettingPropertyGroup("{=BE_NobleInteractions_Settings_BattleRelations}Battle Relations", GroupOrder = 2)]
+        [SettingPropertyBool("{=BE_NobleInteractions_Settings_BattleRelations}Battle Relations Popup", RequireRestart = false)]
+        public bool BattleRelationsPopUpEnabled { get; set; } = true;
+        [SettingPropertyGroup("{=BE_NobleInteractions_Settings_BattleRelations}Battle Relations", GroupOrder = 2)]
+        [SettingPropertyInteger("{=BE_NobleInteractions_Settings_BattleRelations_PositiveRelationGain}Relations Gained for Positive Defeats", 0, 100)]
+        public int BattleRelationsPositiveRelationsGain { get; set; } = 2;
+        [SettingPropertyGroup("{=BE_NobleInteractions_Settings_BattleRelations}Battle Relations", GroupOrder = 2)]
+        [SettingPropertyInteger("{=BE_NobleInteractions_Settings_BattleRelations_PositiveRelationGain}Relations Lost for Negative Defeats", 0, 100)]
+        public int BattleRelationsNegativeRelationsLoss { get; set; } = 2;
+
     }
 }
